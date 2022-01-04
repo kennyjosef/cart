@@ -1,5 +1,5 @@
 import { useState } from "react";
-// import SingleProduct from "./SingleProduct";
+import SingleCollection from "./SingleCollection";
 
 const collections=[
     {
@@ -79,10 +79,12 @@ function Collection({cart, setCart}) {
     return(
         <div className="container">
             {sneakers.map(sneaker=>(
+                <SingleCollection
                 sneaker={sneaker}
-                // key={sneakers.id}
-                // cart={cart}
-                // setCart={setCart}
+                key={sneakers.id}
+                cart={cart}
+                setCart={setCart}
+                />
             ))}
 
         </div>
