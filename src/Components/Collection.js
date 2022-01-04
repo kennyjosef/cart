@@ -81,7 +81,7 @@ function Collection({cart, setCart}) {
             {sneakers.map(sneaker=>(
                 <SingleCollection
                 sneaker={sneaker}
-                key={sneakers.id}
+                key={sneaker.id}
                 cart={cart}
                 setCart={setCart}
                 />

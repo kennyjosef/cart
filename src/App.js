@@ -15,7 +15,7 @@ function App() {
       <Routes>
         <Route exact path='/' element={<Home cart={cart} setCart={setCart} />} />
         <Route path='/cart' element={<Cart cart={cart} setCart={setCart} />} />
-        <Route path='/' element={<Collections cart={cart} setCart={setCart}/>}/>
+        <Route path='/collections' element={<Collections cart={cart} setCart={setCart}/>}/>
       </Routes>
     </Router>
     </div>
