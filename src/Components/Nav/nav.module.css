@@ -8,6 +8,7 @@ a{
     margin: auto;
     margin-left: 150px;
     width: 80%;
+    /* margin-bottom: 40px; */
 }
 
 .items{
@@ -41,11 +42,24 @@ li a {
     font-size: 16px;
     font-family: 'Kumbh Sans', sans-serif;
 }
+li {
+    text-decoration: none;
+    padding: 10px;
+    color:  hsl(220, 13%, 13%);
+    font-size: 16px;
+    font-family: 'Kumbh Sans', sans-serif;
+}
+li:hover{
+    color: hsl(26, 100%, 55%);
+    font-weight: 400;
+    border-radius:2px solid hsl(26, 100%, 55%) ;
+}
 li a:hover{
     color: hsl(26, 100%, 55%);
     font-weight: 400;
     border-radius:2px solid hsl(26, 100%, 55%) ;
 }
+
 .item{
     display: flex;
     justify-content: space-around;

@@ -18,8 +18,8 @@ function SingleProduct({ product, cart, setCart }) {
     return (
         
         <div className='products'>
-            <div>
-                <img src={product.image} alt={product.title} className='image' />
+            <div className='product1'>
+                <img src={product.image} alt={product.title} className='image' />               
                 <div className='small_images'>
                     <img src={P1} alt={product.title} className='image'/>
                     <img src={P2} alt={product.title} className='image'/>
@@ -27,7 +27,7 @@ function SingleProduct({ product, cart, setCart }) {
                     <img src={P4} alt={product.title} className='image'/>
                 </div>
             </div>
-            <div>
+            <div className='product2'>
                 <h3 className='header'>{product.header}</h3>
                 <h2>{product.title}</h2>
                 <p>{product.desc}</p>
