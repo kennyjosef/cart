@@ -12,11 +12,15 @@ function Nav ({cart})  {
                     <Link to='/'><h2>Sneakers</h2></Link>
                 </div>
                 <div className={classes.link}>
+                    
                     <ul>
+                        <Link to='./#'>
+                            <li>Home</li>
+                        </Link>
+                     
                         <Link to='/collections'>
                             <li>Collections</li>
                         </Link>
-                    {/* <li><a href="#">Collections</a></li> */}
                     <li><a href="#">Men</a></li>
                     <li><a href="#">Women</a></li>
                     <li><a href="#">About</a></li>
